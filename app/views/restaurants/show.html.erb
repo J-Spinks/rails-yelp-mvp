@@ -2,4 +2,6 @@
   <h1>The name of the restaurant is: <%= @restaurant.name %></h1>
   <%= @restaurant.address %>
   <%= @restaurant.category %>
+  <%= link_to 'Add a review', new_restaurant_review_path(@restaurant), class: "button-white" %>
+
 </div>
